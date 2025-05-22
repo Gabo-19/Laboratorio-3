@@ -4,7 +4,7 @@
 int encontrarMaximo(int arr[], int n) {
     int maximo = arr[0];
     for (int i = 1; i < n; i++) {
-        if (arr[i] > maximo) {  // corregido: buscar mayor, no menor
+        if (arr[i] > maximo) {  
             maximo = arr[i];
         }
     }
